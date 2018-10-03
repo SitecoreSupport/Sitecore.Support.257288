@@ -32,6 +32,9 @@
           else if (IsValidRule(item))
           {
             robotsRecord.AddRule(item);
+            #region Added code
+            list.Add(robotsRecord);
+            #endregion
           }
         }
       }
